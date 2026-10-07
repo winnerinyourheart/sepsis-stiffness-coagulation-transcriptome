@@ -1,0 +1,19 @@
+# Core scientific stack (versions tested with)
+numpy>=2.0
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.4
+statsmodels>=0.14
+matplotlib>=3.8
+
+# Survival analysis
+lifelines>=0.28
+scikit-survival>=0.22        # import name: sksurv
+
+# Gene-set enrichment
+gseapy>=1.1
+
+# Molecular docking (scripts 20-22 only; optional)
+biopython>=1.83              # import name: Bio
+rdkit>=2023.9                # import name: rdkit
+meeko>=0.5                   # import name: meeko

@@ -1,0 +1,24 @@
+# secrets / credentials
+*token*
+*jwt*
+*.env
+.env*
+*cred*
+*secret*
+*.key
+.ieugwas.json
+
+# large raw data (download from the accessions in README.md)
+data/
+*.txt.gz
+*.tar
+*.h5ad
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# os
+.DS_Store
+Thumbs.db
