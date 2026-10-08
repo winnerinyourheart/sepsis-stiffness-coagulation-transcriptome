@@ -1,0 +1,8 @@
+cohort,scaling,n_total,n_labelled,n_death,genes_used,auc,p
+"GSE65682 (discovery, in-sample)",train-n/a,479,479,114,21,0.7644,1.50e-17
+GSE95233,train-scaled,124,34,34,21,0.7255,1.125e-04
+GSE95233,cohort-scaled,124,34,34,21,0.716,2.160e-04
+E-MTAB-4451,train-scaled,106,52,52,18,0.5901,1.105e-01
+E-MTAB-4451,cohort-scaled,106,52,52,18,0.6677,2.945e-03
+GSE185263,train-scaled,392,52,52,21,0.5722,9.344e-02
+GSE185263,cohort-scaled,392,52,52,21,0.6162,6.935e-03

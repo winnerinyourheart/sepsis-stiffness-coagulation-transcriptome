@@ -33,6 +33,9 @@ Every statistic reported in the manuscript is traceable to a table in the accomp
 | 15. Erythrocyte confound | `21_erythrocyte_confound_check.py` | Haemolysis sensitivity analysis | `erythrocyte_confound.csv` |
 | 16. Figures | `25_make_figures.py` | Fig. 1–5 (300 dpi PNG) | `figures/Fig1-5.png` |
 | 17. Audit | `24_audit_v02.py` | 26-item recomputation audit of all reported numbers | `审计_v0.2.csv` |
+| 18. CI of external r | `26_validation_ci.py` | Percentile-bootstrap 95% CI for the cross-cohort co-variation (10,000 resamples, seed 42) | `validation_coverage_ci.csv` |
+| 19. Orthogonal ssGSEA | `27_ssgsea_orthogonal.py` | Independent gseapy re-implementation of the primary scores | `ssgsea_orthogonal_check.csv`, `ssgsea_orthogonal_summary.md` |
+| 20. Signature transport | `28_signature_external.py` | External discrimination (AUC) of the 21-gene signature under two scaling schemes | `signature_external_validation.csv`, `.md` |
 | — | `08_gse185263_fetch_meta.py`, `18a_fetch_gse167363.py`, `23_singlecell_localization.py` | Data fetchers / single-cell utility (not used for a reported result; retained for completeness) | — |
 
 ### Note on the single-cell scripts

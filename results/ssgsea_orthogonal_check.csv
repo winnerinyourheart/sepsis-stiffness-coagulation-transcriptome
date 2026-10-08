@@ -1,0 +1,4 @@
+score,n,spearman_r_raw,spearman_r_sign_aligned,pearson_r_raw
+stiffness_537,802,-0.5294,0.5294,-0.4988
+coag_42,802,-0.6683,0.6683,-0.6719
+inflammation_20,802,0.1869,-0.1869,0.298
